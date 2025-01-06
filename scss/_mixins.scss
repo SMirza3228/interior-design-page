@@ -1,0 +1,13 @@
+@mixin container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+@mixin flex-inner {
+    padding: 130px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
