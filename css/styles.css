@@ -508,7 +508,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: -100px auto;
   }
 }
-@media (max-width: 780px) {
+@media (min-width: 780px) {
   .img-3 {
     margin-top: 50px;
   }
@@ -530,9 +530,14 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 710px) {
   .experience__inner {
     flex-direction: column;
+    justify-content: center;
   }
   .img-3 {
     display: none;
+  }
+  .img-1 {
+    width: 100%;
+    margin: 10px 0;
   }
   .img-2 {
     width: 100%;
@@ -543,6 +548,9 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 12px;
     font-weight: 300;
     line-height: 30px;
+  }
+  .block__inner-2 {
+    width: 100px;
   }
   .block__inner-3 {
     padding-left: 30px;
@@ -562,6 +570,18 @@ h1, h2, h3, h4, h5, h6 {
     width: 380px;
     font-size: 12px;
     line-height: 20px;
+  }
+  .footer__text {
+    width: 200px;
+  }
+  .living__text {
+    width: 200px;
+  }
+  .block-3 {
+    width: 200px;
+  }
+  .title-2 {
+    width: 260px;
   }
 }
 @media (max-width: 600px) {
@@ -625,10 +645,22 @@ h1, h2, h3, h4, h5, h6 {
   .square {
     width: 430px;
   }
+  .sidebar__square {
+    width: 430px;
+    font-size: 10px;
+    line-height: 20px;
+    gap: 10px;
+  }
 }
 @media (max-width: 470px) {
   .square {
     width: 330px;
+  }
+  .sidebar__square {
+    width: 330px;
+    font-size: 10px;
+    line-height: 20px;
+    gap: 10px;
   }
 }
 @media (max-width: 400px) {
@@ -656,6 +688,9 @@ h1, h2, h3, h4, h5, h6 {
     width: 320px;
     font-size: 12px;
     line-height: 20px;
+  }
+  .end__inner {
+    flex-wrap: wrap;
   }
   .square {
     width: 350px;
